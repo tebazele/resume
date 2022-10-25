@@ -1,0 +1,94 @@
+body {
+  background-color: antiquewhite;
+}
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: darkcyan;
+  height: 300px;
+  width: 100%;
+}
+
+nav {
+  padding:1.5rem;
+  text-align: right;
+}
+
+img {
+  height: 200px;
+}
+
+/* object-fit: cover;
+object-fit:center; */
+
+/* hotkey cmmd forward slash */
+
+.container {
+  display:flex;
+  padding:1.5rem;
+  justify-content: space-between;
+  height: 250px;
+  align-items: center;
+}
+
+.container-2 {
+  display:flex;
+  padding:1.5rem;
+  margin: 1.5em;
+  justify-content:space-between;
+}
+
+.flex-item {
+  margin: auto 2em;
+  width: 30%;
+}
+
+.para {
+  width: 400px;
+  margin: 2em;
+  padding: 1em;
+}
+
+.center {
+  display:flex;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid black;
+  padding: 1.5em;
+  border-radius: 8px;
+}
+
+.p-1 {
+  padding: 1em;
+}
+
+.mg-1 {
+  margin: 1em;
+}
+
+
+.pt-relative {
+  position:relative;
+}
+
+/* min-width at least size */
+/* max-width at most size */
+@media (min-width: 768px) {
+  .pt-absolute {
+    position:absolute;
+  }  
+}
+
+@media (max-width: 760px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* transform (with pos absolute) -- scale, skew, translate */
+
+
